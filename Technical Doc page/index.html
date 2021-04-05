@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Techinal Documentation | Vaibhav Gangurde</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Vollkorn&display=swap" rel="stylesheet">
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    </head>
+
+    <body>
+
+    
+
+
+        <!-- Main Section  -->
+        <main id="main-doc" class="main">
+            <!-- java intro -->
+            <section class="main-section" id="introduction">
+                <header>Introduction</header>
+                <article>
+                    
+                    <p>Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language. Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the Oak name to Java. It is used for:</p>
+
+                        <ul>
+                            <li>Mobile applications (specially Android apps)</li>
+                            <li>Desktop applications</li>
+                            <li>Web applications</li>
+                            <li>Web servers and application servers</li>
+                            <li>Games, Database connection, And much, much more!</li>
+                        </ul>
+                </article>
+            </section>
+
+            <!-- java History -->
+            <section class="main-section" id="history">
+                <header>History Of Java</header>
+                <article>
+                    
+                    <p>The history of Java is very interesting. Java was originally designed for interactive television, but it was too advanced technology for the digital cable television industry at the time. The history of Java starts with the Green Team. Java team members (also known as Green Team), initiated this project to develop a language for digital devices such as set-top boxes, televisions, etc. However, it was suited for internet programming. Later, Java technology was incorporated by Netscape.</p>
+                    <p>The principles for creating Java programming were "Simple, Robust, Portable, Platform-independent, Secured, High Performance, Multithreaded, Architecture Neutral, Object-Oriented, Interpreted, and Dynamic". Java was developed by James Gosling, who is known as the father of Java, in 1995. James Gosling and his team members started the project in the early '90s.James Gosling - founder of java Currently, Java is used in internet programming, mobile devices, games, e-business solutions, etc. </p>
+                    <p><b>Java Version History</b></p>
+                    <p>Many java versions have been released till now. The current stable release of Java is Java SE 10.</p>
+                        <ul>
+                            <li>JDK Alpha and Beta (1995)</li>
+                            <li>JDK 1.0 (23rd Jan 1996)</li>
+                            <li>JDK 1.1 (19th Feb 1997)</li>
+                            <li>J2SE 1.2 (8th Dec 1998)</li>
+                            <li>J2SE 1.3 (8th May 2000)</li>
+                            <li>J2SE 1.4 (6th Feb 2002)</li>
+                            <li>J2SE 5.0 (30th Sep 2004)</li>
+                            <li>Java SE 6 (11th Dec 2006)</li>
+                            <li>Java SE 7 (28th July 2011)</li>
+                            <li>Java SE 8 (18th Mar 2014)</li>
+                            <li>Java SE 9 (21st Sep 2017)</li>
+                            <li>Java SE 10 (20th Mar 2018)</li>
+                        </ul>
+                </article>
+            </section>
+
+            <!-- java Features -->
+            <section class="main-section" id="features" >
+                <header>Features of Java</header>
+                <article>
+                    <p>The primary objective of Java programming language creation was to make it portable, simple and secure programming language. Apart from this, there are also some excellent features which play an important role in the popularity of this language. The features of Java are also known as java buzzwords.</p>
+                    <center>
+                    <img  src="https://static.javatpoint.com/images/core/java-features.png" >
+                    </center>
+                </article>
+            </section>
+
+            <!-- Hello World | First program -->
+            <section class="main-section" id="hello_world" >
+                <header>Hello World!</header>
+                <article>
+                    <p>we will learn how to write the simple program of java. We can write a simple hello java program easily after installing the JDK. To create a simple java program, you need to create a class that contains the main method.</p>
+                    <!-- Code here --->
+                    <code>class Simple {    <b>public static void </b>main(String args[])   {       System.out.println("Hello Java");     }  }  </code>           
+                </article>
+
+            </section>
+
+            <!-- Java Variables -->
+            <section class="main-section" id="java_variables"> 
+                <header>Java Variables</header>
+                <article>
+                    <p>Variable is name of reserved area allocated in memory. In other words, it is a name of memory location. It is a combination of "vary + able" that means its value can be changed.</p>
+                    <p>There are three types of variables in Java: 
+                        <ol>1. Local variable<br>
+                        A variable declared inside the body of the method is called local variable. You can use this variable only within that method and the other methods in the class aren't even aware that the variable exists. A local variable cannot be defined with "static" keyword.</ol>
+                        <ol>2. Instance variable <br>
+                        A variable declared inside the class but outside the body of the method, is called instance variable. It is not declared as static. It is called instance variable because its value is instance specific and is not shared among instances.</ol>
+                        <ol>3. Static variable <br>
+                        A variable which is declared as static is called static variable. It cannot be local. You can create a single copy of static variable and share among all the instances of the class. Memory allocation for static variable happens only once when the class is loaded in the memory.</ol>
+                    </p>
+                     
+                        <code>class A {     int data=50;      //instance variable     static int m=100; //static variable  void method() {     int n=90;         //local variable    }  <br>}//end of class  </code>
+                      
+                </article>
+            </section>
+
+            <!-- Java Keywords -->
+            <section class="main-section" id="data_types" >
+                <header>Data Types in Java</header>
+                <article>
+                    <p>Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:</p>
+                    <li>Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.</li>
+                    <li>Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.</li>
+                </article>
+            </section>
+
+            <!-- If esle Statement -->
+            <section class="main-section" id="if_else"  >
+                <header>Java If-else</header>
+                <article>
+                    <p>The Java if statement is used to test the condition. It checks boolean condition: true or false. There are various types of if statement in Java.</p>
+                    <ul>
+                        <li>if statement</li>
+                        <li>if-else statement</li>
+                        <li>if-else-if ladder</li>
+                        <li>nested if statement</li>
+                    </ul>
+                    <ul>
+                        <h3>Java if Statement</h3>
+                        <p>The Java if statement tests the condition. It executes the if block if condition is true.</p>
+                            <code>if(condition) {      //code to be executed  } </code>
+                        
+                        <h3>Java if-else Statement</h3>
+                        <p>The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.</p>
+
+                            <code>if(condition) {      //code if condition is true    }   else {      //code if condition is false  }  </code>
+
+
+
+                        <h3>Java if-else-if ladder Statement</h3>
+                        <p>The if-else-if ladder statement executes one condition from multiple statements.</p>
+                         
+                            <code>if(condition1)    {       //code to be executed if condition1 is true     }   else if(condition2){       //code to be executed if condition2 is true    }  else if(condition3) {       //code to be executed if condition3 is true  }  ...  else{  //code to be executed if all the conditions are false  } </code>
+                           
+
+                        <h3>Java Nested if statement</h3>
+                        <p>The nested if statement represents the if block within another if block. Here, the inner if block condition executes only when outer if block condition is true.</p>
+                         
+                            <code>if(condition) {       //code to be executed    if(condition) {    //code to be executed       }    }   </code>
+                          
+                        </ul>
+                </article>
+            </section>
+
+            <!-- Switch Statement -->
+            <section class="main-section" id="switch" >
+                <header>Java Switch Statement</header>
+                <article>
+                    <p>The Java switch statement executes one statement from multiple conditions. It is like if-else-if ladder statement. The switch statement works with byte, short, int, long, enum types, String and some wrapper types like Byte, Short, Int, and Long. Since Java 7, you can use strings in the switch statement. In other words, the switch statement tests the equality of a variable against multiple values.</p>
+                    <!-- Code Here -->
+                     
+                        <code>switch(expression) {  case value1:        //code to be executed;       break;  //optional    case value2:       //code to be executed;      break;  //optional    ......       default:           code to be executed if all cases are not matched;     }</code>
+                      
+
+
+                </article>
+            </section>
+
+            <!-- while loop statement -->
+            <section class="main-section" id="while_loop" >
+                <header>Java While Loop</header>
+                <article>
+                    <p>The Java while loop is used to iterate a part of the program several times. If the number of iteration is not fixed, it is recommended to use while loop</p>
+                     
+                        <code>while(condition)  {   //code to be executed  }</code>
+                      
+                </article>
+            </section>
+
+            <!-- Do while Loop  -->
+            <section class="main-section" id="do_while_loop"  >
+                <header>Java do-while Loop</header>
+                <article>
+                    <p>The Java do-while loop is used to iterate a part of the program several times. If the number of iteration is not fixed and you must have to execute the loop at least once, it is recommended to use do-while loop. The Java do-while loop is executed at least once because condition is checked after loop body.</p>
+                     
+                        <code>do {      //code to be executed  } while(condition);</code>
+                      
+
+                </article>
+            </section>
+
+            <!-- Continue Statement -->
+            <section class="main-section" id="continue_statement" >
+                <header>Java Continue Statement</header>
+                <article>
+                   <p>The continue statement is used in loop control structure when you need to jump to the next iteration of the loop immediately. It can be used with for loop or while loop. The Java continue statement is used to continue the loop. It continues the current flow of the program and skips the remaining code at the specified condition. In case of an inner loop, it continues the inner loop only. We can use Java continue statement in all types of loops such as for loop, while loop and do-while loop.</p>
+                    
+                        <code>jump-statement;        continue;     </code>
+                     
+                </article>
+            </section>
+
+            <!-- Reference -->
+            <section class="main-section" id="reference"  >
+                <header>Reference</header>
+                <article>
+                    <ul>
+                        <li>All the documentation in this page is taken from <a href="https://www.javatpoint.com/java-tutorial">javatpoint</a></li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
