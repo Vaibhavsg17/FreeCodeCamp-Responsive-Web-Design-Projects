@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&family=Roboto+Slab:wght@500&family=Vollkorn:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+
+        <header class="header">
+            <h1 class="title" id="title"> Grilled Burger Store Survey Form</h1>
+            <p class="description" id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+
+        <div class="container">
+          <form id="survey-form">
+            <div class="form-group">
+                <label for="Name" id="name-label" ><b>Name :</b></label>
+                <input class="form-control"  type="text" id="name" name="fname" placeholder="Enter Your Name " required>
+            </div>
+
+            <div class="form-group">
+                <label for="age" id="number-label" ><b>Age :</b></label>
+                <input class="form-control" type="number"  id="number" name="age" id="number" min="10" max="99" placeholder="Enter Your Age" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" id="email-label"><b>Email :</b></label>
+                <input class="form-control"  type="email" id="email" name="email" placeholder="Enter Your Email " required>
+            </div>
+
+            <div class="form-group">
+                <label for="role"><b>Which option best describes your current role?</b></label>
+                <select class="form-control" id="dropdown" name="role" required>
+                    <option disabled selected value>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="freelancer">Freelancer</option>
+                    <option value="jobholder">Job Holder</option>
+                    <option value="others ">Others</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="recommend"><b>Would you recommend our Burger to a friend?</b></label>
+                <label for="vehicle1"><input   type="radio" class="input-radio" name="vehicle1" value="definitely">Definitely</label>
+                <br>
+                <label for="vehicle2"><input type="radio" class="input-radio" name="vehicle2" value="maybe">Maybe</label>
+                <br>
+                <label for="vehicle3"><input type="radio" class="input-radio" name="vehicle3" value="not_sure">Not sure</label>
+            </div>
+
+            <div class="form-group">
+                <label for="feature"><b>What is your favorite feature of our Burger?</b></label>
+                <select class="form-control" id="dropdown" name="feature" required>
+                    <option disabled selected value>Select Feature</option>
+                    <option value="flavor">The Theme (flavor)</option>
+                    <option value="patty">The Patty</option>
+                    <option value="sauce">The Sauce</option>
+                    <option value="toppings">The Toppings</option>
+                    <option value="bun">The Bun</option>
+                </select>
+            </div>
+
+                <label for="improve"><b>I found customer service to be friendly and welcoming</b></label>
+
+                <label for="vehicle1"><input   type="checkbox" class="input-checkbox" name="vehicle1" value="easypaisa">Strongly Agree</label>
+                <br>
+                <label for="vehicle2"><input type="checkbox" class="input-checkbox" name="vehicle2" value="Credit Card">Agree</label>
+                <br>
+                <label for="vehicle3"><input type="checkbox" class="input-checkbox" name="vehicle3" value="Bank Transfer"> Neutral</label>
+                <br>
+                <label for="vehicle1"><input type="checkbox" class="input-checkbox" name="vehicle1" value="Once_in_a_year"> Disagree</label>
+                <br>
+                <label for="vehicle2"><input type="checkbox" class="input-checkbox" name="vehicle2" value="Never">Strongly Disagree</label>
+                <br>
+
+                <label for="comments"><b>Any comments or suggestions?</b></label>
+
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+                <br>
+
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">
+                      Submit
+                    </button>
+                </div>
+          </form>
+        </div>
+        
+        <!-- Script for FCC Test -->
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text input fields</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email">
+<br>
+   <label for="age">Age:</label><br>
+   <input type="number" id="Age" name="Age">
+<br>
+  <label for="cars"> Which option best describes your current role ? </label><br>
+  <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+
+  <br>
+  <br>
+
+  <input   type="radio" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="radio" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="radio" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+<br><br><input type="submit">
+</form>
+
+</body>
+</html>
+ -->
+
