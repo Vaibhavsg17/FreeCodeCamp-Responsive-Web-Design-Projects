@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Lora', serif;
+} 
+
+.navbar {
+	overflow: hidden;
+	background-color: #e84545;
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+.navbar a {
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+.navbar a:hover {
+	background: #ddd;
+	color: black;
+  }
+
+.hero {
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	width: 100%;
+  	height: 100vh;
+	background-color: #ffc93c;
+} 
+
+.hero h1 {
+	font-size: 32px;
+}
+
+.hero p {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.project {
+	margin: 0 auto;
+	padding: 50px 0 60px;
+	text-align: center;
+	background-color: #9ede73;
+} 
+
+.project h2 {
+	color: #be0000;
+	font-size: 28px;
+} 
+
+/* Float four columns side by side */
+.column {
+	float: left;
+	width: 45%;
+	padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 90%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+  }
+  
+  /* Style the counter cards */
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	margin: 15px;
+	text-align: center;
+	background-color: #f1f1f1;
+  }
+
+  .card img {
+	  width: 100%;
+  }
+.contact {
+	padding: 25px;
+	background-color: #ccffbd;
+	text-align: center;
+} 
+
+button {
+	margin: 10PX;
+}
+@media screen and (max-width: 600px) {
+
+}
